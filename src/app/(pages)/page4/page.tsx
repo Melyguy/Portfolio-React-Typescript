@@ -4,8 +4,8 @@ import React from "react";
 import Link from 'next/link';
 
 export default function Home() {
-const mainText = "Portfolio"
-    const textDesc = "Hi, my name is Odin im a 17 year old developer. I make games, 3d models, websites and animations. Here is some of my work.  "
+const mainText = "Websites and others"
+    const textDesc = "Here's some of my websites and other projects."
   return (
     <main className="text-white">
       <div className="flex gap-5 md:flex-row absolute top-5 right-5">
