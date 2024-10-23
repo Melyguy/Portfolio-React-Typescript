@@ -7,7 +7,8 @@ interface ProjectProps{
 }
 export default function RenderWidget({src}: ProjectProps){
     return(
-      <Image src={src} alt="" className="" ></Image>
-        
+        <div className="w-full rounded-[3vw] overflow-hidden">
+            <Image src={src} alt="" className="w-full h-full object-cover" ></Image>
+        </div>
     )
 }
