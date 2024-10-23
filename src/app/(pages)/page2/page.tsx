@@ -8,6 +8,8 @@ import RenderWidget from "@/Components/renderwidget";
 import renderbrain from "./Assets/brainrender.png"
 import renderSpear from "./Assets/Invertedspearofheaven.png"
 import renderMusashi from "./Assets/musashi.png"
+import darkmoonRender from "./Assets/darkmoonrender.png"
+import shrineRender from "./Assets/shrine2.png"
 
 
 export default function Home() {
@@ -31,6 +33,12 @@ const mainText = "Blender"
         </FadeIn>
         <FadeIn delay={0}>
           <RenderWidget src={renderMusashi}></RenderWidget>
+        </FadeIn>
+        <FadeIn delay={0}>
+          <RenderWidget src={darkmoonRender}></RenderWidget>
+        </FadeIn>
+        <FadeIn delay={0}>
+          <RenderWidget src={shrineRender}></RenderWidget>
         </FadeIn>
       </div>
       <footer>
