@@ -35,17 +35,17 @@ export default function Slider() {
             setIndex((prevIndex) => prevIndex - 1);
         }
         if (index <= 0){
-            setIndex((prevIndex) => 6)  
+            setIndex((prevIndex) => 5)  
         }
     };
 
     return (
         <FadeIn delay={1}>
             <div className="w-full p-5 md:p-[20vw]">
-                <div className="grid grid-cols-1 grid-rows-1 overflow-hidden gap-5 md:gap-10 ">
+                <div className="grid grid-cols-1 grid-rows-1 overflow-hidden gap-5 md:gap-10  ">
                     {projects.slice(index, index + 1).map((project) => (
                         <div key={project.title}>
-                            <Project
+                            <Project 
                                 imageSrc={project.imageSrc}
                                 title={project.title}
                                 content={project.content}
@@ -54,7 +54,7 @@ export default function Slider() {
                     ))}
                 </div>
                 <div className="w-full flex justify-between items-center">
-                    <button onClick={prev} className='bg-white text-black aspect-square rounded-full p-5' disabled={index === 0}>Prev</button>
+                    <button onClick={prev} className='bg-white text-black aspect-square rounded-full p-5'>Prev</button>
                     <div className="flex gap-3">
                         {Array.from({ length: Math.ceil(totalImages) }).map((_, i) => (
                             <div key={i} className={`aspect-square w-5 h-5 rounded-full ${i === Math.floor(index) ? 'bg-secondary scale-125' : 'bg-primary scale-100'}`}></div>
