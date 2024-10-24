@@ -1,8 +1,9 @@
 "use client"
 
-import React from "react";
+import React, {useEffect} from "react";
 import Link from 'next/link';
 import FadeIn from "@/Components/fadein";
+import Lenis from "lenis";
 
 import RenderWidget from "@/Components/renderwidget";
 import renderbrain from "./Assets/brainrender.png"
@@ -14,6 +15,16 @@ import FugaRender from "./Assets/fuga.png"
 
 
 export default function Home() {
+  useEffect( () => {
+    window.scrollTo(0, 0);
+
+    const lenis = new Lenis();
+    const raf = (time: number) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  }, []);
 const mainText = "Blender"
     const textDesc = "Blender is a program for designing 3d models and renders. I make all of my models and renders here. I take alot of inspiration from media I watch. Here is some of my work in this program."
   return (
