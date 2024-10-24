@@ -10,11 +10,12 @@ import renderSpear from "./Assets/Invertedspearofheaven.png"
 import renderMusashi from "./Assets/musashi.png"
 import darkmoonRender from "./Assets/darkmoonrender.png"
 import shrineRender from "./Assets/shrine2.png"
+import FugaRender from "./Assets/fuga.png"
 
 
 export default function Home() {
 const mainText = "Blender"
-    const textDesc = "Blender is a program for designing 3d models and renders. Here is some of my work in this program."
+    const textDesc = "Blender is a program for designing 3d models and renders. I make all of my models and renders here. I take alot of inspiration from media I watch. Here is some of my work in this program."
   return (
     <main className="text-white">
       <div className="flex gap-5 md:flex-row absolute top-5 right-5">
@@ -39,6 +40,9 @@ const mainText = "Blender"
         </FadeIn>
         <FadeIn delay={0}>
           <RenderWidget src={shrineRender}></RenderWidget>
+        </FadeIn>
+        <FadeIn delay={0}>
+          <RenderWidget src={FugaRender}></RenderWidget>
         </FadeIn>
       </div>
       <footer>
