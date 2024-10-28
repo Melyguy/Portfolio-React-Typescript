@@ -1,12 +1,23 @@
 "use client"
 
-import React from "react";
+import React, {useEffect} from "react";
 import Link from 'next/link';
 import Slider from "@/Components/slider";
 import Slider2 from "@/Components/slider2";
 //import Image from "next/image";
+import Lenis from "lenis";
 
 export default function Home() {
+  useEffect( () => {
+    window.scrollTo(0, 0);
+
+    const lenis = new Lenis();
+    const raf = (time: number) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  }, []);
 const mainText = "Games"
     const textDesc = "Unity is a program for designing and programming games, 3d models and renders. Here is some of my work in this program."
   return (
@@ -30,7 +41,7 @@ const mainText = "Games"
       
       <h1 className="h-[50vh] flex justify-center items-center text-[10vw] pt-[50vh] font-bold">Grapple remake</h1>
       
-      <h3 className="h-[50vh] flex justify-center items-center text-[2vw] p-[10vw] font-bold"></h3>
+      <h3 className="h-[50vh] flex justify-center items-center text-[2vw] p-[10vw] font-bold">Grapple remake is as the name suggests a remake of an older game thats on my itch page. I worked on this remake at school spaning multiple hours. The results were a good game that i am really proud of.</h3>
       
       <Slider2 />  
 

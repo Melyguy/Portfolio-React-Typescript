@@ -40,7 +40,7 @@ export default function Slider2() {
     };
 
     return (
-        <FadeIn delay={1}>
+        <FadeIn delay={0}>
             <div className="w-full p-1 md:p-[20vw]">
                 <div className="grid grid-cols-1 grid-rows-1 overflow-hidden gap-5 md:gap-10  ">
                     {projects.slice(index, index + 1).map((project) => (
