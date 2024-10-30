@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect , useState} from "react";
+import React, { useEffect} from "react";
 import Link from 'next/link';
 import FadeIn from "@/Components/fadein";
 import Lenis from "lenis";
@@ -15,7 +15,6 @@ import FugaRender from "./Assets/fuga.png"
 
 
 export default function Home() {
- //const [isGood, setisGood = useState(false)]
   useEffect( () => {
     window.scrollTo(0, 0);
 
