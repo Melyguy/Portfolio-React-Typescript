@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useEffect} from "react";
+import React, { useEffect , useState} from "react";
 import Link from 'next/link';
 import FadeIn from "@/Components/fadein";
 import Lenis from "lenis";
@@ -15,6 +15,7 @@ import FugaRender from "./Assets/fuga.png"
 
 
 export default function Home() {
+ //const [isGood, setisGood = useState(false)]
   useEffect( () => {
     window.scrollTo(0, 0);
 
@@ -30,6 +31,7 @@ const mainText = "Blender"
   return (
     <main className="text-white">
       <div className="flex gap-5 md:flex-row absolute top-5 right-5">
+      <Link href='/' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Home</Link> 
         <Link href='Historypage' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">History</Link> 
         <Link href='futureprojects' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Socials</Link>
         <button className=" flex justify-center items-center text-[2vw  font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Future projects</button>
