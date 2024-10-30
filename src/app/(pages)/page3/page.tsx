@@ -23,6 +23,7 @@ const mainText = "Games"
   return (
     <main className="text-white">
       <div className="flex gap-5 md:flex-row absolute top-5 right-5">
+      <Link href='/' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Home</Link> 
       <Link href='Historypage' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">History</Link> 
       <Link href='futureprojects' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Socials</Link>
       <button className=" flex justify-center items-center text-[2vw  font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Future projects</button>
@@ -32,8 +33,10 @@ const mainText = "Games"
       
       <h1 className="h-[50vh] flex justify-center items-center text-[10vw] pt-[50vh] font-bold">City Case</h1>
       <p className="flex justify-center items-center  pt-[10vh] font-bold">playcitycase.itch.io/city-case</p>
+      <div>
+      <h3 className="h-[50vh]  flex justify-center items-center text-[2vw] p-[10vw] font-bold"> Made in a group of 4 of me and four of my friends. City Case is a building game similar to games like HayDay with a fun twist of opening cases for new buildings similar to something like CSGO.</h3>
+      </div>
       
-      <h3 className="h-[50vh] flex justify-center items-center text-[2vw] p-[10vw] font-bold"> Made in a group of 4 of me and four of my friends. City Case is a building game similar to games like HayDay with a fun twist of opening cases for new buildings similar to something like CSGO.</h3>
       
       <Slider />  
 
