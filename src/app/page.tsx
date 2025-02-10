@@ -2,6 +2,8 @@
 
 import React from "react";
 import Link from 'next/link';
+import homeimage from "../app/home.png";
+import Image from 'next/image';
 
 export default function Home() {
 const mainText = "Portfolio"
@@ -13,6 +15,14 @@ const mainText = "Portfolio"
       <Link href='Historypage' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">History</Link>
       <Link href='socialspage' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Socials</Link>
       <Link href='futureprojects' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Future projects</Link>
+      <Link href='/'>
+        <Image 
+          src={homeimage} 
+          alt="Home"
+          className="md:w-[2vw] md:h-[2vw]"
+        />
+      </Link>
+      
       </div>
       </header>
 
