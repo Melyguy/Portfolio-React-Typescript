@@ -17,7 +17,7 @@ export default function Slider2() {
         {imageSrc: citycaseImg3, title: "A nice view", content: 'This is a screenshot from the grapple remake'},
         {imageSrc: citycaseImg4, title: "A view between wallrunable walls", content: 'This is a screenshot from the grapple remake'},
         {imageSrc: citycaseImg5, title: "Grappling", content: 'This is a screenshot from the grapple remake'},
-        {imageSrc: citycaseImg6, title: "Wallruning in action ", content: 'This is a screenshot from the grapple remake'}
+        {imageSrc: citycaseImg6, title: "Wallrunning in action ", content: 'This is a screenshot from the grapple remake'}
     ];
     const[index, setIndex] = useState(0);
     const totalImages = projects.length
@@ -27,16 +27,16 @@ export default function Slider2() {
             setIndex((prevIndex) => prevIndex + 1)  
         }
         if (index >= totalImages -1){
-            setIndex((prevIndex) => 0)  
+            setIndex(() => 0)  
         }
     }
     const prev = () => {
-        if (index > 0) {
-            setIndex((prevIndex) => prevIndex - 1);
-        }
-        if (index <= 0){
-            setIndex((prevIndex) => 5)  
-        }
+        setIndex((prevIndex) => {
+            if (prevIndex > 0) {
+                return prevIndex - 1;
+            }
+            return totalImages - 1;
+        });
     };
 
     return (

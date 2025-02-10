@@ -27,20 +27,20 @@ export default function Slider() {
             setIndex((prevIndex) => prevIndex + 1)  
         }
         if (index >= totalImages -1){
-            setIndex((prevIndex) => 0)  
+            setIndex(() => 0)  
         }
     }
     const prev = () => {
-        if (index > 0) {
-            setIndex((prevIndex) => prevIndex - 1);
-        }
-        if (index <= 0){
-            setIndex((prevIndex) => 5)  
-        }
+        setIndex((prevIndex) => {
+            if (prevIndex > 0) {
+                return prevIndex - 1;
+            }
+            return totalImages - 1;
+        });
     };
 
     return (
-        <FadeIn delay={0}>
+        <FadeIn delay={0    }>
             <div className="w-full p-1 md:p-[20vw]">
                 <div className="grid grid-cols-1 grid-rows-1 overflow-hidden gap-5 md:gap-10  ">
                     {projects.slice(index, index + 1).map((project) => (
