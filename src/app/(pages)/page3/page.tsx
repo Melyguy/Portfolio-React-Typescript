@@ -22,8 +22,8 @@ export default function Home() {
 const mainText = "Games"
     const textDesc = "Unity is a program for designing and programming games, 3d models and renders. Here is some of my work in this program."
   return (
-    <main className="text-white">
-      <header className="fixed top-0 w-screen bg-black">
+    <main className="text-black">
+      <header className="fixed top-0 w-screen bg-{#ededed} shadow-sm">
       <div className="flex gap-5 pt-5 md:flex-row ">
       <Link href='Historypage' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">History</Link>
       <Link href='socialspage' className="justify-center items-center text-[2vw] font-bold md:pr-10 md:pl-10 md:flex md:justify-center md:items-center md:text-[1vw] md:font-bold">Socials</Link>
