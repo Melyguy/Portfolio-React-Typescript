@@ -19,7 +19,7 @@ const mainText = "Projects"
         <Image 
           src={homeimage} 
           alt="Home"
-          className="md:w-[2vw] md:h-[2vw]"
+          className=" w-[2vw] h-[2vw] md:w-[2vw] md:h-[2vw]"
         />
       </Link>
       </div>
