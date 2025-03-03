@@ -4,7 +4,7 @@ import React from "react";
 
 
 export default function Home() {  
-const mainText = "Projects"
+const mainText = "Music"
     const textDesc = "Here are some of my future projects"
   return (
     <main className="text-red-300">
