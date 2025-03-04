@@ -4,15 +4,9 @@ import { useState } from "react";
 
 
 export default function TextScroll() {
-    const texts = ["frontend developer", "backend developer", "game developer", "producer", "designer", "artist",];
+    const texts = ["frontend developer", "backend developer", "game developer", "producer", "designer","student"];
     const [textIndex, settextIndex] = useState(0);
     
-    const randomNum = () => {
-      let randomIndex = Math.random() * texts.length;
-      while (randomIndex === textIndex) {
-        randomIndex = Math.random() * texts.length;
-      }
-    }
 
     useEffect(() => {
         const timer = setTimeout(() => {
