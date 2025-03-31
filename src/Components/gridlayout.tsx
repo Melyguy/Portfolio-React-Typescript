@@ -6,18 +6,19 @@ import { AiOutlineDotNet } from "react-icons/ai";
 
 export function GridLayout() {
     return (
-        <div className="bg-neutral-200 min-h-[600px] w-[70vw] rounded-2xl p-1 mt-16 mx-auto">
-        <div className="bg-neutral-300 h-full w-full rounded-2xl p-4">
-          <div className="grid grid-cols-4 grid-rows-3 gap-4 h-full w-full">
+        <div className="bg-neutral-200 min-h-[600px] max-w-[1200px] w-[90%] md:w-[80%] rounded-2xl p-1 mt-16 mx-auto">
+        <div className="bg-neutral-300 min-h-full w-full rounded-2xl p-2 md:p-4">
+          <div className="grid grid-cols-4 grid-rows-3 gap-2 md:gap-4 h-full w-full">
             {/* Large card */}
-            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 hover:scale-[102%] transition-all min-h-[300px]"></div>
+            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-2 md:p-4 hover:scale-[102%] transition-all min-h-[300px]"></div>
             {/* Regular cards */}
-            <div className="col-span-1 row-span-3 bg-neutral-100 rounded-xl p-4">
-              <div className="grid grid-cols-2 gap-1 p-1">
-                <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
-                    <TbBrandNextjs className="text-base" />
-                    Next.js
+            <div className="col-span-1 row-span-3 bg-neutral-100 rounded-xl p-2 md:p-4">
+              <div className="grid grid-cols-2 gap-1 md:gap-2">
+                <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-1.5 md:px-2 text-[10px] md:text-xs font-medium text-center flex items-center justify-center gap-1">
+                    <TbBrandNextjs className="text-sm md:text-base" />
+                    <span className="truncate">Next.js</span>
                 </div>
+                {/* Apply the same changes to all other tech stack cards */}
                 <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
                     <TbBrandReact className="text-base" />
                     React
