@@ -15,7 +15,7 @@ export default function Navbar() {
                     href="/" 
                     className="
                     relative
-                    bg-fuchsia-600 
+                    bg-pink-600 
                     text-white 
                     font-black 
                     text-lg
@@ -52,7 +52,7 @@ export default function Navbar() {
                     href="/page2" 
                     className="
                     relative
-                    bg-fuchsia-600 
+                    bg-pink-600 
                     text-white 
                     font-black 
                     text-lg
@@ -89,7 +89,7 @@ export default function Navbar() {
                     href="/games" 
                     className="
                     relative
-                    bg-fuchsia-600 
+                    bg-pink-600 
                     text-white 
                     font-black 
                     text-lg
@@ -126,7 +126,7 @@ export default function Navbar() {
                     href="/music" 
                     className="
                     relative
-                    bg-fuchsia-600 
+                    bg-pink-600 
                     text-white 
                     font-black 
                     text-lg
