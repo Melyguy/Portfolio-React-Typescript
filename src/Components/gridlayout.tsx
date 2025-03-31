@@ -65,10 +65,13 @@ export function GridLayout() {
                 </div>
               </div>
             </div>
-            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 hover:scale-[102%] transition-all min-h-[200px]">
+            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 hover:scale-[102%] transition-all">
+              
             </div>
+            
           </div>
         </div>
         </div>  
     );
+
 }
