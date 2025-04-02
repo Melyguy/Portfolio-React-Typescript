@@ -12,10 +12,11 @@ import darkmoonRender from "./Assets/darkmoonrender.png"
 import shrineRender from "./Assets/shrine2.png"
 import FugaRender from "./Assets/fuga.png"
 import Nighsky from "./Assets/nightsky2.png"
-import daytime from "./Assets/(n) 1.png"
-import cloud from "./Assets/cloudtop.png"
-import cloudb from "./Assets/clouddown.png"
+import planet1 from "./Assets/halfplanet.png"
+import daytime from "./Assets/forest.png"
+
 import Image from "next/image";
+import { MusicComponent } from "@/Components/MusicComponent";
 
 
 
@@ -66,9 +67,17 @@ const mainText = "Blender"
           <RenderWidget src={FugaRender}></RenderWidget>
         </FadeIn>
       </div>
-      <Image src={cloud} alt="" className="w-screen" />
+      <div className="w-screen flex flex-col items-center">
+      <Image
+          src={planet1}
+          alt ="planet1" 
+          className="w-screen"/>
+
       </div>
-      <div className="relative min-h-screen">
+
+      </div>
+
+      <div className="relative min-h-screen flex flex-col items-center justify-center">
         <Image 
           src={daytime} 
           alt="background" 
@@ -77,9 +86,8 @@ const mainText = "Blender"
           quality={100}
           priority
         />
-      <Image src={cloudb} alt="" className="w-screen h-20" />
+        <MusicComponent></MusicComponent>
       </div>
-
     </main>
   );
 }

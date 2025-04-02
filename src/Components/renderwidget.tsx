@@ -7,8 +7,12 @@ interface ProjectProps{
 }
 export default function RenderWidget({src}: ProjectProps){
     return(
-        <div className="w-full rounded-[3vw] overflow-hidden">
-            <Image src={src} alt="" className="w-full h-full object-cover" ></Image>
+        <div className="w-full aspect-square rounded-full overflow-hidden">
+            <Image 
+                src={src} 
+                alt="" 
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+            />
         </div>
     )
 }

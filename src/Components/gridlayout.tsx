@@ -13,6 +13,7 @@ export function GridLayout() {
             {/* Large card */}
             <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4">
                 <h1 className="text-4xl text-black font-bold">Projects</h1>
+               
             </div>
             {/* Regular cards */}
             <div className="col-span-1 row-span-3 bg-neutral-100 rounded-xl p-4">
