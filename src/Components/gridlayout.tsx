@@ -2,6 +2,7 @@ import { TbBrandBlender, TbBrandUnity, TbBrandNextjs, TbBrandReact, TbBrandTypes
 import { PiFileCSharpDuotone } from "react-icons/pi";
 import { RiAngularjsLine } from "react-icons/ri";
 import { AiOutlineDotNet } from "react-icons/ai";
+import { FaGithub, FaGitAlt } from "react-icons/fa";
 
 
 export function GridLayout() {
@@ -10,9 +11,10 @@ export function GridLayout() {
         <div className="bg-neutral-300 h-full w-full rounded-2xl p-4">
           <div className="grid grid-cols-4 grid-rows-3 gap-4 h-full w-full">
             {/* Large card */}
-            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 hover:scale-[102%] transition-all"></div>
+            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4"></div>
             {/* Regular cards */}
             <div className="col-span-1 row-span-3 bg-neutral-100 rounded-xl p-4">
+            <h1 className="font-bold text-black">Technology I use</h1>
               <div className="grid grid-cols-2 gap-2 p-2">
                 <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
                     <TbBrandNextjs className="text-base" />
@@ -44,12 +46,16 @@ export function GridLayout() {
                     Unity
                 </div>
                 <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
-                    <TbBrandBlender className="text-base" />
-                    Blender
-                </div>
-                <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
                     <PiFileCSharpDuotone className="text-base" />
                     C#
+                </div>
+                <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
+                    <FaGithub className="text-base" />
+                    GitHub
+                </div>
+                <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
+                    <FaGitAlt className="text-base" />
+                    Git CLI
                 </div>
                 <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
                     <AiOutlineDotNet className="text-base" />
@@ -63,9 +69,13 @@ export function GridLayout() {
                     <TbMusic className="text-base" />
                     FL studio
                 </div>
+                <div className="bg-neutral-300 text-neutral-950 rounded-2xl py-1 px-2 text-xs font-medium text-center flex items-center justify-center gap-1">
+                    <TbBrandBlender className="text-base" />
+                    Blender
+                </div>
               </div>
             </div>
-            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 hover:scale-[102%] transition-all">
+            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 ">
               
             </div>
             
