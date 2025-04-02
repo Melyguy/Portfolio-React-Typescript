@@ -11,7 +11,9 @@ export function GridLayout() {
         <div className="bg-neutral-300 h-full w-full rounded-2xl p-4">
           <div className="grid grid-cols-4 grid-rows-3 gap-4 h-full w-full">
             {/* Large card */}
-            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4"></div>
+            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4">
+                <h1 className="text-4xl text-black font-bold">Projects</h1>
+            </div>
             {/* Regular cards */}
             <div className="col-span-1 row-span-3 bg-neutral-100 rounded-xl p-4">
             <h1 className="font-bold text-black">Technology I use</h1>

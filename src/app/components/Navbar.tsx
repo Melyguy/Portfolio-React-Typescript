@@ -83,7 +83,7 @@ export default function Navbar() {
                     hover:shadow-[inset_0_0_20px_rgba(255,0,0,0.5)]
                 "
                 >
-                    Blender
+                    Projects
                 </Link>
                 <Link 
                     href="/games" 
