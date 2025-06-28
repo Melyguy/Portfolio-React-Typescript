@@ -1,164 +1,81 @@
 "use client"
 
 import Link from "next/link";
-
-
+import { FaHome } from "react-icons/fa";
+import { TbBrandReact } from "react-icons/tb";
+import { IoPerson } from "react-icons/io5";
 export default function Navbar() {
 
     return (
         <>
+        <div className="w-full flex justify-center">
             <div 
-                className="scale-[0.56] md:scale-100 fixed z-30 top-1 md:top-10 left-[50vw] translate-x-[-50%] flex gap-2 backdrop-blur-[30px]  p-3 
-                rounded-full overflow-hidden  font-bold"
+                className="max-w-screen-md scale-[0.56] md:scale-100 bg-neutral-200 absolute z-30 top-1 md:top-10 left-1/2 -translate-x-1/2 
+               flex gap-2 backdrop-blur-[30px] p-1 justify-center rounded-full overflow-hidden w-full font-bold"
             >
                 <Link 
                     href="/" 
                     className="
-                    relative
-                    bg-pink-400 
-                    text-white 
-                    font-black 
-                    text-lg
-                    rounded-xl
-                    px-8 
-                    py-3 
-                    uppercase 
-                    tracking-[0.2em]
-                    transform 
-                    skew-x-[-10deg]
-                    before:content-[''] 
-                    before:absolute 
-                    before:inset-0 
-                    before:bg-black 
-                    before:rounded-xl
-                    before:translate-x-1 
-                    before:translate-y-1 
-                    before:-z-10
-                    hover:translate-x-[-2px]
-                    hover:translate-y-[-2px]
-                    hover:before:translate-x-2
-                    hover:before:translate-y-2
-                    active:translate-x-[1px]
-                    active:translate-y-[1px]
-                    transition-all
-                    duration-150
-                    shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]
-                    hover:shadow-[inset_0_0_20px_rgba(255,0,0,0.5)]
+                    p-4
+                    text-2xl
+                    text-blue-950
+                    bg-neutral-300
+                    rounded-full
+                    hover:bg-blue-500
+                    hover:text-white
+                    flex
+                    items-center
+                    justify-center
+                    hover:bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
+                    hover:border
+                    hover:border-blue-950
+                    
                 "
                 >
-                    Home
+                    <FaHome />
                 </Link>
                 <Link 
                     href="/page2" 
                     className="
-                    relative
-                    bg-pink-400 
-                    text-white 
-                    font-black 
-                    text-lg
-                    rounded-xl
-                    px-8 
-                    py-3 
-                    uppercase 
-                    tracking-[0.2em]
-                    transform 
-                    skew-x-[-10deg]
-                    before:content-[''] 
-                    before:absolute 
-                    before:inset-0 
-                    before:bg-black 
-                    before:rounded-xl
-                    before:translate-x-1 
-                    before:translate-y-1 
-                    before:-z-10
-                    hover:translate-x-[-2px]
-                    hover:translate-y-[-2px]
-                    hover:before:translate-x-2
-                    hover:before:translate-y-2
-                    active:translate-x-[1px]
-                    active:translate-y-[1px]
-                    transition-all
-                    duration-150
-                    shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]
-                    hover:shadow-[inset_0_0_20px_rgba(255,0,0,0.5)]
+                       p-4
+                    text-2xl
+                    text-blue-950
+                    bg-neutral-300
+                    rounded-full
+                    hover:bg-blue-500
+                    hover:text-white
+                    flex
+                    items-center
+                    justify-center
+                    hover:bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
+                    hover:border
+                    hover:border-blue-950
                 "
                 >
-                    Projects
+                    <TbBrandReact />
                 </Link>
                 <Link 
-                    href="/games" 
+                    href="/abouts" 
                     className="
-                    relative
-                    bg-pink-400 
-                    text-white 
-                    font-black 
-                    text-lg
-                    rounded-xl
-                    px-8 
-                    py-3 
-                    uppercase 
-                    tracking-[0.2em]
-                    transform 
-                    skew-x-[-10deg]
-                    before:content-[''] 
-                    before:absolute 
-                    before:inset-0 
-                    before:bg-black 
-                    before:rounded-xl
-                    before:translate-x-1 
-                    before:translate-y-1 
-                    before:-z-10
-                    hover:translate-x-[-2px]
-                    hover:translate-y-[-2px]
-                    hover:before:translate-x-2
-                    hover:before:translate-y-2
-                    active:translate-x-[1px]
-                    active:translate-y-[1px]
-                    transition-all
-                    duration-150
-                    shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]
-                    hover:shadow-[inset_0_0_20px_rgba(255,0,0,0.5)]
+                    p-4
+                    text-2xl
+                    text-blue-950
+                    bg-neutral-300
+                    rounded-full
+                    hover:bg-blue-500
+                    hover:text-white
+                    flex
+                    items-center
+                    justify-center
+                    hover:bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
+                    hover:border
+                    hover:border-blue-950
                 "
                     >
-                        Games
+                        <IoPerson />
                 </Link>
-                <Link 
-                    href="/music" 
-                    className="
-                    relative
-                    bg-pink-400 
-                    text-white 
-                    font-black 
-                    text-lg
-                    rounded-xl
-                    px-8 
-                    py-3 
-                    uppercase 
-                    tracking-[0.2em]
-                    transform 
-                    skew-x-[-10deg]
-                    before:content-[''] 
-                    before:absolute 
-                    before:inset-0 
-                    before:bg-black 
-                    before:rounded-xl
-                    before:translate-x-1 
-                    before:translate-y-1 
-                    before:-z-10
-                    hover:translate-x-[-2px]
-                    hover:translate-y-[-2px]
-                    hover:before:translate-x-2
-                    hover:before:translate-y-2
-                    active:translate-x-[1px]
-                    active:translate-y-[1px]
-                    transition-all
-                    duration-150
-                    shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]
-                    hover:shadow-[inset_0_0_20px_rgba(255,0,0,0.5)]
-                "
-                    >
-                        Music
-                </Link>
+
+            </div>
             </div>
         </>
     );

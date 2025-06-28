@@ -13,6 +13,7 @@
                  <p className="text-2xl p-5 text-neutral-950 font-bold"> 3XM</p>
                  <p className="text-neutral-950 font-semibold p-3">
                  Creating digital lifestyles with creative technological processes.
+                 
                  </p>
                      </div>
  
