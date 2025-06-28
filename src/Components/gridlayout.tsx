@@ -99,7 +99,18 @@ export function GridLayout() {
 
                 </div>
             </div>
-            
+                        <div className="col-span-2 row-span-1 bg-neutral-100 rounded-xl p-4">
+                <h1 className="text-4xl text-Blue-950 font-bold"></h1>
+               
+            </div>
+                                    <div className="col-span-1 row-span-1 bg-neutral-100 rounded-xl p-4">
+                <h1 className="text-4xl text-Blue-950 font-bold"></h1>
+               
+            </div>
+            <div className="col-span-3 row-span-1 bg-neutral-100 rounded-xl p-4">
+                <h1 className="text-4xl text-Blue-950 font-bold"></h1>
+               
+            </div>
           </div>
         </div>
         </div>  
