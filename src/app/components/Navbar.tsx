@@ -27,15 +27,15 @@ export default function Navbar() {
                     items-center
                     justify-center
                     hover:bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
-                    hover:border
-                    hover:border-blue-950
+                    border
+                    border-blue-950
                     
                 "
                 >
                     <FaHome />
                 </Link>
                 <Link 
-                    href="/page2" 
+                    href="/projects" 
                     className="
                        p-4
                     text-2xl
@@ -48,14 +48,14 @@ export default function Navbar() {
                     items-center
                     justify-center
                     hover:bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
-                    hover:border
-                    hover:border-blue-950
+                    border
+                    border-blue-950
                 "
                 >
                     <TbBrandReact />
                 </Link>
                 <Link 
-                    href="/abouts" 
+                    href="/about" 
                     className="
                     p-4
                     text-2xl
@@ -68,8 +68,8 @@ export default function Navbar() {
                     items-center
                     justify-center
                     hover:bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
-                    hover:border
-                    hover:border-blue-950
+                    border
+                    border-blue-950
                 "
                     >
                         <IoPerson />

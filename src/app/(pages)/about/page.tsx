@@ -2,7 +2,6 @@
 
 import React, {useEffect} from "react";
 import Lenis from "lenis";
-import UnityWebGL from "@/app/components/UnityWebgl";
 
 export default function Home() {
   useEffect( () => {

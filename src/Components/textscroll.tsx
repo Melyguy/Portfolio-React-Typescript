@@ -22,7 +22,7 @@ export default function TextScroll() {
 
   return (
     <div className="h-10 p-6">
-      <h1 className="">I am a {texts[textIndex]}</h1>
+      <h1 className=" font-semibold">I am a {texts[textIndex]}</h1>
     </div>
   );
 }
