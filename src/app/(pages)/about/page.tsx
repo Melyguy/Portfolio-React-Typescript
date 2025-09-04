@@ -15,15 +15,14 @@ export default function Home() {
     requestAnimationFrame(raf);
   }, []);
 const mainText = "Games"
-    const textDesc = "Unity is a program for designing and programming games, 3d models and renders. Here is some of my work in this program."
   return (
     <main className="text-blue-950 w-full h-full flex justify-center items-center">
       <div className="w-full h-screen flex justify-center mt-32">
       <h1 className="text-2xl font-bold flex">{mainText}</h1>
-      
-    
+
 
     </div>
+    
     </main>
   );
 }
