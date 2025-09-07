@@ -26,7 +26,7 @@ export default function Home() {
     <main className="text-blue-600 mt-64 h-full w-full ">
       <div className=" h-screen w-full  flex items-center justify-center">
         <div className="bg-neutral-300 w-full h-full rounded-xl p-5 m-4 ">
-        <div className="bg-neutral-200 w-full h-full rounded-xl p-5 grid grid-cols-4 grid-rows-6 gap-8">
+        <div className="bg-neutral-200 w-full h-full rounded-xl p-5 grid grid-cols-2 grid-rows-6 md:grid-rows-6 md:grid-cols-4 gap-8">
           <Card imagesrc = {Brainrender} />
           <Card imagesrc = {Spear} />
           <Card imagesrc = {DarkMoon} />

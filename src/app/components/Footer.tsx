@@ -6,7 +6,7 @@
  
  export function Footer() {
      return(
-         <footer className="bg-[#dcdcdc] border-t border-neutral-950 backdrop-blur-3xl  overflow-hidden">
+         <footer className="bg-[#dcdcdc] border-t border-neutral-950 backdrop-blur-3xl  overflow-hidden mt-32">
                  <div className="mt-3 flex flex-row items-center justify-center" >
                  <div className=" max-w-10xl flex gap-10 flex-row items-center justify-between">
                      <div className=" flex flex-col">
