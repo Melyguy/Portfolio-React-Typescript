@@ -22,7 +22,7 @@
     "react-unity-webgl": "^9.8.0",
     "reacticons": "^0.0.1",
     "use-sound": "^5.0.0",
-    "vercel": "^44.2.7",
+    "vercel": "^47.0.7",
     "vite": "^5.4.10"
   },
   "devDependencies": {
