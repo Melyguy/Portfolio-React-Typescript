@@ -1,11 +1,32 @@
 "use client"
 
 import Link from "next/link";
-
+import { useState, useEffect } from "react";
 
 export default function NewNavbar(){
+const [isVisible, setIsVisible] = useState(false);
+
+useEffect(() => {
+
+
+    const controlNavbar = () => {
+         if (window.scrollY > 100) {
+            setIsVisible(true);
+        }else {
+            setIsVisible(false);
+        }
+    }
+
+    window.addEventListener("scroll", controlNavbar);
+    return () => window.removeEventListener("scroll", controlNavbar);
+}, [])
+
+
+
+
     return(
-        <div className="w-full h-20 flex justify-center top-0 shadow pl-10 md:pl-36 fixed z-30 bg-[#ededed]">
+        <nav className={`w-full h-20 flex justify-center top-0 shadow pl-10 md:pl-36 fixed z-30 bg-[#ededed]  ${isVisible ? 'translate-y-0 transition-transform duration-300 ease-in-out' : '-translate-y-full transition-transform duration-300 ease-in-out'}`} 
+       >
             <div className="w-full h-full flex items-center">
                 <Link href="/"  className="flex justify-center font-semibold text-md text-blue-950 hover:underline hover:underline-offset-8 hover:text-neutral-950 md:text-xl">3XM</Link>
             <div className="h-12 bg-neutral-300 w-2 ml-10 rounded-full md:flex hidden"></div>
@@ -26,7 +47,7 @@ export default function NewNavbar(){
                 </div>
             </div>
             </div>
-        </div>
+        </nav>
 
     );
 }
