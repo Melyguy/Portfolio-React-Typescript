@@ -16,7 +16,12 @@ export default function Home() {
     requestAnimationFrame(raf);
   }, []);
   return (
-    <main className="text-blue-400 w-full min-h-screen mt-32" >
+    <main className="text-blue-400 w-full min-h-screen" >
+    <div className="w-full h-full flex items-center justify-center">
+
+    </div>
+
+  
       <div className="flex flex-col justify-center items-center md:h-[100vh] md:flex md:flex-col md:justify-center md:items-center">
       <GridLayout />
 
