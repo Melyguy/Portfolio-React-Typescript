@@ -39,7 +39,7 @@
                  </div>
                  </div>
  <iframe 
-   className="w-[30vw] h-[30vh] rounded-xl"
+   className="w-[30vw] h-[30vh] rounded-xl "
    src="https://open.spotify.com/embed/playlist/67hRkAMhvwPYlzkBdjhH8l?utm_source=generator&theme=0"
    frameBorder="0"
    allowFullScreen
