@@ -6,7 +6,7 @@
  
  export function Footer() {
      return(
-         <footer className="bg-[#dcdcdc] border-t border-neutral-950 backdrop-blur-3xl  overflow-hidden">
+         <footer className="bg-neutral-400/20  border border-white backdrop-blur-md rounded-lg  overflow-hidden">
                  <div className="mt-3 flex flex-row items-center justify-center" >
                  <div className=" max-w-10xl flex gap-10 flex-row items-center justify-between">
                      <div className=" flex flex-col">
@@ -20,19 +20,19 @@
                  <div>
                  <p className="text-xl p-5 text-neutral-950 font-semibold"> Socials</p>
                  <div className="grid grid-cols-3 gap-4">
-                 <Link className=" p-2 text-neutral-800 text-2xl hover:text-neutral-950" href="https://github.com/Melyguy?tab=repositories">
+                 <Link className=" p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://github.com/Melyguy?tab=repositories">
                      <FaGithub />
                  </Link>
-                 <Link className="p-2 text-neutral-800 text-2xl hover:text-neutral-950" href="https://www.linkedin.com/in/odin-johan-laursen-leite-13b7282a5/">
+                 <Link className="p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://www.linkedin.com/in/odin-johan-laursen-leite-13b7282a5/">
                      <FaLinkedin />
                  </Link>
-                 <Link className="p-2 text-neutral-800 text-2xl hover:text-neutral-950" href="https://zkeler.itch.io/">
+                 <Link className="p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://zkeler.itch.io/">
                      <SiItchdotio />
                  </Link>
-                 <Link className="p-2 text-neutral-800 text-2xl hover:text-neutral-950" href="https://open.spotify.com/user/nido.johan">
+                 <Link className="p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://open.spotify.com/user/nido.johan">
                      <FaSpotify />
                  </Link>
-                 <Link className="p-2 text-neutral-800 text-2xl hover:text-neutral-950" href="https://soundcloud.com/mellyshmelly">
+                 <Link className="p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://soundcloud.com/mellyshmelly">
                      <FaSoundcloud />
                  </Link>
  

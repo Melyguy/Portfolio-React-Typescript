@@ -15,7 +15,7 @@ export function GridLayout() {
           <div className="grid grid-cols-4 grid-rows-5 gap-4 h-full w-full">
             {/* Large card */}
             
-            <div className="col-span-3 row-span-2 bg-neutral-100 rounded-xl p-4 grid grid-cols-1 grid-rows-2 gap-8 md:grid-cols-4 md:grid-rows-2">
+            <div className="col-span-3 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg rounded-xl p-4 grid grid-cols-1 grid-rows-2 gap-8 md:grid-cols-4 md:grid-rows-2">
             <Card imagesrc = {Musashi} />
           <SmallCardDisplay imagesrc = {Shrine}  />
           <SmallCardDisplay imagesrc = {crystalarm}  />
