@@ -8,13 +8,15 @@ export default function Introduction() {
     return (
     <div className="w-full h-screen flex items-center justify-center">
           <div className="h-full w-full flex justify-center items-center ">     
-            <div className="absolute h-full w-full bg-gradient-to-b from-blue-400 via-purple-400 to-pink-400 animate-gradient-xy">
+            <div className="absolute h-full w-full  bg-gradient-to-b from-blue-400 via-purple-400 to-pink-400 animate-gradient-xy p-3">
                      
-            <div className="h-full w-full rounded-2xl blur-lg bg-neutral-200  flex top-5 justify-center items-center">
-
+            <div className="h-full w-full blur-sm rounded-2xl p-5 bg-neutral-200  flex top-5 justify-center items-center">
+                <div className="h-full w-full rounded-2xl bg-neutral-950  flex top-5 justify-center items-center">
+                <div className="h-96 w-96 rounded-full bg-gradient-to-b from-pink-400 via-purple-400 to-blue-400  flex justify-center items-center"></div>
+            </div>
             </div>
             <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-              <h1 className="text-5xl font-extrabold mb-4 text-blue-400/40 backdrop:blur-[1px] ">Welcome to My Portfolio</h1>
+              <h1 className="text-5xl font-extrabold mb-4 text-blue-400/60 backdrop:blur-[1px] ">Welcome to My Portfolio</h1>
               <p className="text-lg mb-8">Explore my work and projects</p>
               <div className="flex justify-center gap-4">
                   <div className="w-80 h-60 bg-neutral-300/20 rounded-3xl border border-white/20 backdrop-blur-md shadow-md flex flex-col items-center justify-center">
