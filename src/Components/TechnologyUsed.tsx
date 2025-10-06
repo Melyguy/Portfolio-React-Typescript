@@ -23,7 +23,7 @@ export function TechnologyUsed(){
                             <TbBrandTypescript className="text-base" />
                             <h1 className="hidden md:flex ">TypeScript</h1>
                         </div>
-                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-100 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
+                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-100  rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
                             <TbBrandTailwind className="text-base" />
                             <h1 className="hidden md:flex ">Tailwind</h1>
                         </div>

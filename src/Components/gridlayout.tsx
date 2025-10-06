@@ -8,6 +8,7 @@ import Shrine from "./assets/shrine2.png"
 import crystalarm from "./assets/crystalarm.png"
 import eren from "./assets/eren titan rendercrystal.png"
 import { TechnologyUsed } from "./TechnologyUsed";
+import Todo from "./Todo";
 export function GridLayout() {
     return (
         <div className=" bg-neutral-200 w-[95vw] h-full p-2 rounded-2xl flex flex-col justify-center items-center mt-16">
@@ -38,7 +39,7 @@ export function GridLayout() {
                 <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">06</h1>
                 <div className="text-blue-500 bg-neutral-400/40 border border-white backdrop-blur-lg shadow-xl p-1 rounded-b-3xl w-full flex flex-row justify-center items-center">
                 <BsStars className="hidden md:flex" />
-                <h1 className="p-1 text-xs md:text-lg">Years Experience</h1></div>
+                <h1 className="p-1 text-xs md:text-lg ">Years Experience</h1></div>
                 </div>
 
                 </div>
@@ -47,8 +48,8 @@ export function GridLayout() {
                 <h1 className="text-4xl text-Blue-950 font-bold"></h1>
                
             </div>
-                                    <div className="col-span-1 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
-                <h1 className="text-4xl text-Blue-950 font-bold"></h1>
+              <div className="col-span-1 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
+                <Todo></Todo>
                
             </div>
 
