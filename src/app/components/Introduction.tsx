@@ -6,7 +6,7 @@ import { FaGamepad } from "react-icons/fa";
 
 export default function Introduction() {
     return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-full h-screen flex items-center justify-center overflow-hidden">
           <div className="h-full w-full flex justify-center items-center ">     
             <div className="absolute h-full w-full  bg-gradient-to-b from-blue-400 via-orange-400 to-red-400 animate-gradient-xy p-3">
                      
@@ -19,7 +19,7 @@ export default function Introduction() {
               <h1 className="text-5xl font-extrabold mb-4 text-blue-400/60 backdrop:blur-[1px] ">Welcome to My Portfolio</h1>
               <p className="text-lg mb-8">Explore my work and projects</p>
               <div className="flex justify-center gap-4">
-                  <div className="w-80 h-60 bg-neutral-300/20 rounded-3xl border border-white/20 backdrop-blur-md shadow-md flex flex-col items-center justify-center">
+                  <div className="w-80 h-60 bg-neutral-300/20 rounded-3xl border hidden md:flex border-white/20 backdrop-blur-md shadow-md flex-col items-center justify-center">
 
                   </div>
                   <div className="w-96  h-auto bg-neutral-300/20 rounded-3xl border border-white/20 backdrop-blur-md shadow-md flex flex-col">
@@ -46,7 +46,7 @@ export default function Introduction() {
                           </Link>
                     </div>
                   </div>
-                  <div className=" w-80 h-60 bg-neutral-300/20 rounded-3xl border border-white/20 backdrop-blur-md shadow-md flex flex-col items-center justify-center">
+                  <div className=" w-80 h-60 hidden md:flex bg-neutral-300/20 rounded-3xl border border-white/20 backdrop-blur-md shadow-md flex-col items-center justify-center">
 
                   </div>
               </div>

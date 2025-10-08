@@ -9,6 +9,7 @@ import crystalarm from "./assets/crystalarm.png"
 import eren from "./assets/eren titan rendercrystal.png"
 import { TechnologyUsed } from "./TechnologyUsed";
 import Todo from "./Todo";
+import Cosmetics from "./Cosmetics";
 export function GridLayout() {
     return (
         <div className=" bg-neutral-200 w-[95vw] h-full p-2 rounded-2xl flex flex-col justify-center items-center mt-16">
@@ -44,8 +45,8 @@ export function GridLayout() {
 
                 </div>
             </div>
-                        <div className="col-span-2 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
-                <h1 className="text-4xl text-Blue-950 font-bold"></h1>
+                <div className="col-span-2 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
+                <Cosmetics></Cosmetics>
                
             </div>
               <div className="col-span-1 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
