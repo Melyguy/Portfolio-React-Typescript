@@ -13,7 +13,7 @@ export default function Todo() {
     }, []);
     return (
         <div className="w-full h-full bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4 flex flex-col gap-2 items-center">
-            <h1 className="text-xl font-bold">Quests</h1>
+            <h1 className="text-xl font-bold">Quests: {task.length}</h1>
             <ul className="w-full h-full overflow-y-auto">
                 {task.map((todo: any) => (
                     <li key={todo.id} className="bg-neutral-300/40 border border-white backdrop-blur-lg shadow-lg rounded-2xl p-2 mb-2 text-sm font-semibold text-blue-950 flex items-center justify-between">
