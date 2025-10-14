@@ -6,8 +6,8 @@
  
  export function Footer() {
      return(
-         <footer className="bg-neutral-400/20  border border-white backdrop-blur-md rounded-lg  overflow-hidden">
-                 <div className="mt-3 flex flex-row items-center justify-center" >
+         <footer className="bg-neutral-400/20  border border-white backdrop-blur-md rounded-lg  overflow-hidden mt-16">
+                 <div className=" flex flex-row items-center justify-center" >
                  <div className=" max-w-10xl flex gap-10 flex-row items-center justify-between">
                      <div className=" flex flex-col">
                  <p className="text-2xl p-5 text-neutral-950 font-bold"> 3XM</p>
