@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Lenis from "lenis";
 import { GridLayout } from "@/Components/gridlayout";
 import Introduction from "./components/Introduction";
+import ThreeBoxesComponent from "./components/3boxesComponent";
 export default function Home() {
   useEffect( () => {
     window.scrollTo(0, 0);
@@ -19,6 +20,7 @@ export default function Home() {
     <main className="text-blue-400 w-full min-h-screen" >
         <Introduction />
     
+        <ThreeBoxesComponent />
       <div className="flex flex-col justify-center items-center md:h-[100vh] md:flex md:flex-col md:justify-center md:items-center">
       <GridLayout />
 
