@@ -9,8 +9,9 @@ export default function Introduction() {
                      
 
             </div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center ">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full ">
           <h1 className="text-5xl  font-semibold text-black md:text-9xl">3XMELLY</h1>
+            <h1 className="text-3xl font-semibold text-white">Developer</h1>
               <div className="flex justify-center gap-4">
                 
 
@@ -18,7 +19,7 @@ export default function Introduction() {
 
             </div>
             
-          <h1 className="text-white text-2xl md:text-6xl font-semibold z-10 top-1/2"> 開発者</h1>
+          <h1 className="text-white text-2xl md:text-6xl font-semibold z-10 top-1/2"></h1>
           </div>
         </div>
 
