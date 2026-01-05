@@ -25,7 +25,7 @@ useEffect(() => {
 
 
     return(
-        <nav className={`w-full h-20 flex justify-center top-0 shadow pl-10 md:pl-36 fixed z-30 bg-neutral-300/40 border border-white rounded-xl backdrop-blur-md  ${isVisible ? 'translate-y-0 transition-transform duration-300 ease-in-out' : '-translate-y-full transition-transform duration-300 ease-in-out'}`} 
+        <nav className={`w-[98vw] h-20 ml-2 mr-2 flex justify-center top-0 shadow pl-10 md:pl-36 fixed z-30 bg-neutral-300/40 border border-white rounded-b-xl backdrop-blur-md  ${isVisible ? 'translate-y-0 transition-transform duration-300 ease-in-out' : '-translate-y-full transition-transform duration-300 ease-in-out'}`} 
        >
             <div className="w-full h-full flex items-center">
                 <Link href="/"  className="flex justify-center font-semibold text-md text-blue-950 hover:underline hover:underline-offset-8 hover:text-neutral-950 md:text-xl">3XM</Link>

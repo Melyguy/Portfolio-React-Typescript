@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { CiHeart } from "react-icons/ci";
-import { GoProjectSymlink } from "react-icons/go";
 import { TbPlayerTrackNext} from "react-icons/tb";
 import AnimatedText from "./animatedtext";
-import InfiniteScroll from "./InfiniteScroller";
 
 
 export default function ThreeBoxesComponent() {
@@ -20,7 +18,7 @@ export default function ThreeBoxesComponent() {
             </div>
         <section className="absolute w-full flex top-28 justify-center items-center">
                 <AnimatedText>
-      <p className="text-xl w-1/2  font-semibold mt-16">Hi! I’m Odin a creative developer and designer from Norway who loves turning ideas into beautiful, functional digital experiences. I’m always exploring new technologies, tools, and design trends to keep my work fresh and exciting. I enjoy collaborating on diverse projects from web design and front-end development to branding and UI/UX and I’m constantly pushing myself to learn, grow, and make things that truly stand out.</p>
+      <p className="text-xl w-1/2 mt-16">Hi! I’m 3XMelly a creative developer and designer from Norway who loves turning ideas into beautiful, functional digital experiences. I’m always exploring new technologies, tools, and design trends to keep my work fresh and exciting. I enjoy collaborating on diverse projects from web design and front-end development to branding and UI/UX and I’m constantly pushing myself to learn, grow, and make things that truly stand out.</p>
       </AnimatedText>
 
         </section>
@@ -31,7 +29,7 @@ export default function ThreeBoxesComponent() {
                         <CiHeart className="w-full h-full text-black" /></Link>
                         <h1 className="mt-1 font-bold text-lg text-black">What i love creating</h1>
                         </div>
-                        <p className="text-black p-10 font-semibold">I blend design and code to craft digital experiences that feel alive.
+                        <p className="text-black p-10 ">I blend design and code to craft digital experiences that feel alive.
 From concept to deployment, I love bringing ideas to life.</p>
 
             </div>
@@ -46,8 +44,8 @@ From concept to deployment, I love bringing ideas to life.</p>
                         <h1 className="mt-1 font-bold text-lg text-black">What comes next</h1>
                         </div>
                     <ul>
-                        <li className="text-black p-3 font-semibold">Exploring 3D web interfaces and performance-driven React apps.</li>
-                        <li className="text-black p-3 font-semibold">Learning motion design, launching a small open-source project,
+                        <li className="text-black p-3">Exploring 3D web interfaces and performance-driven React apps.</li>
+                        <li className="text-black p-3">Learning motion design, launching a small open-source project,
 and maybe redesigning my portfolio (again).</li>
                     </ul>
 

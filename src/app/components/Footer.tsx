@@ -11,7 +11,7 @@
                  <div className=" max-w-10xl flex gap-10 flex-row items-center justify-between">
                      <div className=" flex flex-col">
                  <p className="text-2xl p-5 text-neutral-950 font-bold"> 3XM</p>
-                 <p className="text-neutral-950 font-semibold p-3">
+                 <p className="text-neutral-950 p-3">
                  Creating digital lifestyles with creative technological processes.
                  
                  </p>
@@ -39,7 +39,7 @@
                  </div>
                  </div>
  <iframe 
-   className="w-[30vw] h-[30vh] rounded-xl "
+   className="w-[30vw] h-[30vh] rounded-xl mt-16"
    src="https://open.spotify.com/embed/playlist/67hRkAMhvwPYlzkBdjhH8l?utm_source=generator&theme=0"
    frameBorder="0"
    allowFullScreen

@@ -3,13 +3,18 @@ export type Repo = {
     id: number;
     name: string;
     html_url: string;
+    owner: {
+        login: string;
+        avatar_url: string;
+        html_url: string;
+    };
     description: string;
     stargazers_count: number;
     language: string;
 };
 
 export async function fetchGitHubRepos(): Promise<Repo[]> {
-    const response = await fetch("https://api.github.com/users/Melyguy/repos?sort=updated&per_page=5", {
+    const response = await fetch("https://api.github.com/users/Melyguy/repos?sort=updated&per_page=7", {
         headers: {
             Accept: 'application/vnd.github.v3+json',
         },
