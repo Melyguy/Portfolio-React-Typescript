@@ -8,16 +8,17 @@ export default function ThreeBoxesComponent() {
 
     return (
 
-        <section className="relative  h-[200vh] bg-gradient-to-b from-red-600 via-red-400 to-neutral-100">
+        <section className="relative  h-[200vh]">
             
             <div className="absolute w-full flex justify-center">
+        
       <AnimatedText>
-      <h1 className="text-6xl  font-bold mt-16">About me!</h1>
+      <h1 className="text-6xl font-bold mt-16">About me!</h1>
       </AnimatedText>
 
             </div>
         <section className="absolute w-full flex top-28 justify-center items-center">
-                <AnimatedText>
+        <AnimatedText>
       <p className="text-xl w-1/2 mt-16">Hi! I’m 3XMelly a creative developer and designer from Norway who loves turning ideas into beautiful, functional digital experiences. I’m always exploring new technologies, tools, and design trends to keep my work fresh and exciting. I enjoy collaborating on diverse projects from web design and front-end development to branding and UI/UX and I’m constantly pushing myself to learn, grow, and make things that truly stand out.</p>
       </AnimatedText>
 

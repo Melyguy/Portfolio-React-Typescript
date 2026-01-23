@@ -19,8 +19,7 @@ export default function Home() {
   }, []);
   return (
     <main className="text-blue-400 w-full min-h-screen" >
-        <Introduction />
-
+      <Introduction />
         <ThreeBoxesComponent />
         <ProjectShowcase />
       <div className="flex flex-col justify-center items-center md:h-[100vh] md:flex md:flex-col md:justify-center md:items-center">

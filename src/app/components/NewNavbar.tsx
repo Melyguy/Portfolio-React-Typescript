@@ -25,29 +25,12 @@ useEffect(() => {
 
 
     return(
-        <nav className={`w-[98vw] h-20 ml-2 mr-2 flex justify-center top-0 shadow pl-10 md:pl-36 fixed z-30 bg-neutral-300/40 border border-white rounded-b-xl backdrop-blur-md  ${isVisible ? 'translate-y-0 transition-transform duration-300 ease-in-out' : '-translate-y-full transition-transform duration-300 ease-in-out'}`} 
+        <div className= "w-3/4 h-20 mt-5 fixed bg-neutral-500/20 border border-white rounded-b-xl backdrop-blur-md left-1/2 transform -translate-x-1/2 top-0 z-50 transition-all duration-500 rounded-xl" style={{top: isVisible ? '0' : '-100px'}}
        >
-            <div className="w-full h-full flex items-center">
-                <Link href="/"  className="flex justify-center font-semibold text-md text-blue-950 hover:underline hover:underline-offset-8 hover:text-neutral-950 md:text-xl">3XM</Link>
-            <div className="h-12 bg-white/40 w-2 ml-10 rounded-full md:flex hidden"></div>
-            <div className="h-full w-1/2 grid grid-cols-4 grid-rows-1 items-center">
-                <div className="col-span-1 row-span-1 w-full ml-9">
-                    <Link href="/projects" className=" text-sm font-bold hidden md:flex text-neutral-800 hover:underline hover:underline-offset-8 md:text-lg">Projects</Link>
-                </div>
-                <div className="col-span-1 row-span-1 w-full hidden md:flex ml-9">
-                    <Link href="/projects" className=" text-sm font-bold text-neutral-800 hover:underline hover:underline-offset-8 md:text-lg">Art</Link>
-                </div>
-                <div className="col-span-1 row-span-1 w-full hidden md:flex ml-9">
-                    <Link href="/projects" className=" text-sm font-bold text-neutral-800 hover:underline hover:underline-offset-8 md:text-lg">Music
-                    
-                    </Link>
-                </div>
-                <div className="col-span-1 row-span-1 w-full hidden md:flex ml-9">
-                    <Link href="/projects" className=" text-sm font-bold text-neutral-800 hover:underline hover:underline-offset-8 md:text-lg">Side projects</Link>
-                </div>
+            <div className="w-full flex">
+            
             </div>
-            </div>
-        </nav>
+        </div>
 
     );
 }

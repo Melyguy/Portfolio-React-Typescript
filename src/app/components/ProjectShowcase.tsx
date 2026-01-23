@@ -4,6 +4,7 @@
 import { useEffect, useState } from 'react';
 import {fetchGitHubRepos} from '../../../lib/github';
 import { Repo } from '../../../lib/github';
+import AnimatedText from './animatedtext';
 
 export default function ProjectShowcase() {
   const [repo, setRepo] = useState<Repo[]>([]);
@@ -13,12 +14,17 @@ export default function ProjectShowcase() {
   }, []);
 
   return (
-    <div className="w-full h-full bg-neutral-100 flex flex-col gap-8 items-center justify-center p-10">
-      <ul>
+    <div className="w-full h-full ">
+          
+          
+      <AnimatedText>
+      <h1 className="text-4xl font-bold text-center mb-10">Recent Projects</h1>
+      </AnimatedText>
+
+      <ul className='grid grid-cols-2 '>
         {repo.map((repo) => (
-      <div key={repo.id} className='w-[80vw] h-80 m-5 group  flex bg-neutral-900/80 border border-white shadow-md rounded-xl'>
-       <li className="">
-<div className="w-[80vw] h-12 px-4 bg-neutral-400/20 border border-white/20 rounded-t-xl flex items-center justify-between">
+       <li key={repo.id} className="m-5 group grid col-span-1 bg-neutral-900/80 border border-white shadow-md rounded-xl hover:scale-105 transition-transform duration-300 ease-in-out">
+<div className=" h-12 px-4 bg-neutral-400/20 border border-white/20 rounded-t-xl flex items-center justify-between">
   <a href={repo.html_url} target="_blank" rel="noreferrer">
     <h1 className="font-bold text-white text-lg">
       {repo.name}
@@ -45,7 +51,6 @@ export default function ProjectShowcase() {
               <p className='text-white text-sm'>{repo.description}</p>
             </div>
         </li> 
-      </div>
         ))}
 
       </ul>

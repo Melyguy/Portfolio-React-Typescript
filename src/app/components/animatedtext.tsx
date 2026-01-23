@@ -12,7 +12,7 @@
         children: React.ReactElement<any>;
     }
 
-    export default function AnimatedText({children}: AnimatedTextProps, colorInitial = "#f87171", colorAccent = "#ffdcdc", colorFinal = "#000000") {
+    export default function AnimatedText({children}: AnimatedTextProps, colorInitial = "#f87171", colorAccent = "#ffdcdc", colorFinal = "#42A5F5") {
         const containerRef = useRef<HTMLDivElement>(null);
         const splitRefs = useRef<{ wordSplit: SplitText; charSplit: SplitText }[]>([]);
         const lastScrollProgress = useRef(0);
