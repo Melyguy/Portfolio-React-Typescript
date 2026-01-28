@@ -14,7 +14,7 @@ export type Repo = {
 };
 
 export async function fetchGitHubRepos(): Promise<Repo[]> {
-    const response = await fetch("https://api.github.com/users/Melyguy/repos?sort=updated&per_page=8", {
+    const response = await fetch("https://api.github.com/users/melyguy/repos?sort=updated&per_page=8", {
         headers: {
             Accept: 'application/vnd.github.v3+json',
         },

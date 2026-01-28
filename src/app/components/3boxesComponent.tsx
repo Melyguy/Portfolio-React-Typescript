@@ -13,7 +13,7 @@ export default function ThreeBoxesComponent() {
             <div className="absolute w-full flex justify-center">
         
       <AnimatedText>
-      <h1 className="text-6xl font-bold mt-16">About me!</h1>
+      <h1 className="text-6xl font-bold mt-16">A little about me!</h1>
       </AnimatedText>
 
             </div>

@@ -26,7 +26,7 @@ export default function ProjectShowcase() {
        <li key={repo.id} className="m-5 group grid col-span-1 bg-neutral-900/80 border border-white shadow-md rounded-xl hover:scale-105 transition-transform duration-300 ease-in-out">
 <div className=" h-12 px-4 bg-neutral-400/20 border border-white/20 rounded-t-xl flex items-center justify-between">
   <a href={repo.html_url} target="_blank" rel="noreferrer">
-    <h1 className="font-bold text-white text-lg">
+    <h1 className=" text-white text-lg">
       {repo.name}
     </h1>
   </a>
@@ -46,7 +46,7 @@ export default function ProjectShowcase() {
 </div>
 
             <h1 className='font-semibold text-white ml-2'>{repo.language}</h1>
-            <h1 className=' text-white ml-1'>⭐: {repo.stargazers_count}</h1>
+            <h1 className=' text-white ml-1'>★: {repo.stargazers_count}</h1>
             <div className='p-5 h-1/2 w-full flex items-center justify-center'>
               <p className='text-white text-sm'>{repo.description}</p>
             </div>
