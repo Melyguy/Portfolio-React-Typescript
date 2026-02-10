@@ -1,7 +1,7 @@
  "use client";
  
  import Link from "next/link";
- import { FaLinkedin, FaSpotify, FaGithub, FaSoundcloud } from "react-icons/fa";
+ import { FaSpotify, FaGithub, FaSoundcloud } from "react-icons/fa";
  import { SiItchdotio } from "react-icons/si";
  
  export function Footer() {
@@ -12,7 +12,7 @@
                      <div className=" flex flex-col">
                  <p className="text-2xl p-5 text-neutral-950 font-bold"> 3XM</p>
                  <p className="text-neutral-950 p-3">
-                 Creating digital lifestyles with creative technological processes.
+                 Insert sick footer text here about contacting me or whatever.
                  
                  </p>
                      </div>
@@ -22,9 +22,6 @@
                  <div className="grid grid-cols-3 gap-4">
                  <Link className=" p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://github.com/Melyguy?tab=repositories">
                      <FaGithub />
-                 </Link>
-                 <Link className="p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://www.linkedin.com/in/odin-johan-laursen-leite-13b7282a5/">
-                     <FaLinkedin />
                  </Link>
                  <Link className="p-2 text-neutral-800 text-2xl hover:text-blue-400" href="https://zkeler.itch.io/">
                      <SiItchdotio />

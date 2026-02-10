@@ -44,7 +44,7 @@ useEffect(() => {
                     <Link className="text-neutral-950 hover:text-neutral-100 transition-all duration-300" href="/projects">Projects</Link>
                     <Link className="text-neutral-950 hover:text-neutral-100 transition-all duration-300" href="/about">Study</Link>
                     <Link className="text-neutral-950 hover:text-neutral-100 transition-all duration-300" href="/about">About</Link>
-                    <Link className="text-neutral-950 hover:text-neutral-100 transition-all duration-300" href="/about">Stack</Link>
+                    <Link className="text-neutral-950 hover:text-neutral-100 transition-all duration-300" href="/stack">Stack</Link>
                 </div>
 
                     

@@ -1,9 +1,9 @@
 
 import { TbBrandBlender, TbBrandUnity, TbBrandNextjs, TbBrandReact, TbBrandTypescript,  TbBrandTailwind, TbBrandThreejs, TbBrandFramer, TbMusic } from "react-icons/tb";
 import { PiFileCSharpDuotone } from "react-icons/pi";
-import { RiAngularjsLine } from "react-icons/ri";
-import { AiOutlineDotNet } from "react-icons/ai";
-import { FaGithub, FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaArrowRightFromBracket } from "react-icons/fa6";
+import Link from "next/link";
 export function TechnologyUsed(){
 
     return(
@@ -47,26 +47,11 @@ export function TechnologyUsed(){
                             <FaGithub className="text-base" />
                            <h1 className="hidden md:flex "> GitHub</h1>
                         </div>
-                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-500 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
-                            <FaGitAlt className="text-base" />
-                            <h1 className="hidden md:flex ">Git CLI</h1>
-                        </div>
-                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-500 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
-                            <AiOutlineDotNet className="text-base" />
-                            <h1 className="hidden md:flex ">.NET</h1>
-                        </div>
-                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-500 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
-                            <RiAngularjsLine className="text-base" />
-                            <h1 className="hidden md:flex ">Angular</h1>
-                        </div>
-                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-500 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
-                            <TbMusic className="text-base" />
-                            <h1 className="hidden md:flex ">FL studio</h1>
-                        </div>
-                        <div className="bg-neutral-500/20 border border-white backdrop-blur-lg shadow-lg text-blue-500 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
-                            <TbBrandBlender className="text-base" />
-                            <h1 className="hidden md:flex ">Blender</h1>
-                        </div>
+                        <Link href="/stack" className="bg-neutral-700/20 border hover:bg-neutral-700/40 border-white backdrop-blur-lg shadow-lg text-blue-800 rounded-2xl md:py-1 md:px-2 text-xs font-semibold text-center flex items-center justify-center gap-1">
+                            <FaArrowRightFromBracket className="text-base" />
+                           <h1 className="hidden md:flex "> See all</h1>
+                        </Link>
+
                     </div>
                     </div>
     );
