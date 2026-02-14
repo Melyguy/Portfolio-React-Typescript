@@ -31,19 +31,19 @@ export default function Home() {
         </div>
                 <h1 className="text-center mt-8 font-bold text-white group-hover:hidden group-hover:text-blue-950">Languages</h1>
                     <div className="w-full h-full rounded-b-xl border-t hidden group-hover:flex border-white transition-all duration-300 flex-col p-5 gap-5">
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl flex-row items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl flex-row items-center border border-white transition-all duration-300">
                             <TbBrandTypescript className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">TypeScript</h1>
                         </div>
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <PiFileCSharpDuotone className="text-green-400 text-4xl m-4" />
                             <h1 className="text-white ">C-Sharp</h1>                        
                         </div>
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <TbBrandTailwind className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">Tailwind CSS</h1>                        
                         </div>
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <FaPython  className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">Python</h1>                        
                         </div>
@@ -56,19 +56,19 @@ export default function Home() {
         </div>
                 <h1 className="text-center mt-8 font-bold text-white group-hover:hidden group-hover:text-blue-950">Frameworks</h1>
                 <div className="w-full h-full rounded-b-xl border-t hidden group-hover:flex border-white transition-all duration-300 flex-col p-5 gap-5">
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl flex-row items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl flex-row items-center border border-white transition-all duration-300">
                             <TbBrandNextjs className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">Next.js</h1>
                         </div>
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <FaAngular  className="text-red-400 text-4xl m-4" />
                             <h1 className="text-white ">Angular</h1>                        
                         </div>
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <IoLogoIonic  className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">Ionic</h1>                        
                         </div>
-                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-20 rounded-xl items-center border border-white transition-all duration-300">
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <TbBrandReact  className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">React</h1>                        
                         </div>
