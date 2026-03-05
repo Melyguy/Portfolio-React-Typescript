@@ -1,3 +1,5 @@
+"use client"
+import Activity from "@/Components/Activity";
 
 
 
@@ -17,6 +19,7 @@ export default function Introduction() {
 
               </div>
 
+          <Activity />
             </div>
             
           <h1 className="text-white text-2xl md:text-6xl font-semibold z-10 top-1/2"></h1>
