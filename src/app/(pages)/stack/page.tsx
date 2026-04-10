@@ -9,6 +9,7 @@ import { IoLogoIonic } from "react-icons/io5";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { DiVisualstudio } from "react-icons/di";
 import { LuMicVocal } from "react-icons/lu";
+import { TbBrandCpp } from "react-icons/tb";
 
 export default function Home() {
   useEffect( () => {
@@ -46,6 +47,11 @@ export default function Home() {
                         <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
                             <FaPython  className="text-blue-400 text-4xl m-4" />
                             <h1 className="text-white ">Python</h1>                        
+                        </div>
+                        <div className="bg-neutral-600/80 hidden group-hover:flex w-full h-10 rounded-xl items-center border border-white transition-all duration-300">
+                            <TbBrandCpp  className="text-blue-400 text-4xl m-4" />
+                            <h1 className="text-white ">C++</h1>
+
                         </div>
                     </div>
         </div>

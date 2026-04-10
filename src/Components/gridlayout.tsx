@@ -8,6 +8,7 @@ import Shrine from "./assets/shrine2.png"
 import crystalarm from "./assets/crystalarm.png"
 import eren from "./assets/eren titan rendercrystal.png"
 import { TechnologyUsed } from "./TechnologyUsed";
+import Link from "next/link";
 export function GridLayout() {
     return (
         <div className=" bg-neutral-200 w-[95vw] h-full p-2 rounded-2xl flex flex-col justify-center items-center mt-16">
@@ -24,7 +25,7 @@ export function GridLayout() {
             {/* Regular cards */}
 
             <TechnologyUsed></TechnologyUsed>
-            <div className="col-span-3 row-span-1 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4 ">
+            <div className="col-span-3 row-span-1 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-2 ">
                 <div className="grid grid-cols-3 grid-rows-1 gap-2">
                     <div className="col-span-1 row-span-1 bg-neutral-300/40 border border-white backdrop-blur-lg shadow-xl rounded-3xl flex flex-col justify-center items-center ">
                     <h1 className=" text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">∞+</h1>
@@ -44,8 +45,15 @@ export function GridLayout() {
                 </div>
             </div>
                         <div className="col-span-2 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
-                <h1 className="text-4xl text-Blue-950 font-bold"></h1>
-               
+                <h1 className="text-2xl text-Blue-950 font-bold">Releases:</h1>
+                <div className="flex flex-col gap-4 mt-4">
+                    <Link href="https://zkeler.itch.io/bladebound-proof-of-concept" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Bladebound: Proof of Concept</Link>
+                    <Link href="https://githubshowcasesite.vercel.app/melyguy" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Github project showcase site</Link>
+                    <Link href="https://sidequestapp-ebon.vercel.app/" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Sidequest generator</Link>
+
+                    
+                </div>
+                
             </div>
                                     <div className="col-span-1 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
                 <h1 className="text-4xl text-Blue-950 font-bold"></h1>

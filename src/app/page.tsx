@@ -6,7 +6,6 @@ import { GridLayout } from "@/Components/gridlayout";
 import Introduction from "./components/Introduction";
 import ThreeBoxesComponent from "./components/3boxesComponent";
 import ProjectShowcase from "./components/ProjectShowcase";
-import Activity from "@/Components/Activity";
 export default function Home() {
   useEffect( () => {
     window.scrollTo(0, 0);
