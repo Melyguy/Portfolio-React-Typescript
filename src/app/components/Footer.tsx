@@ -3,7 +3,6 @@
  import Link from "next/link";
  import { FaSpotify, FaGithub, FaSoundcloud } from "react-icons/fa";
  import { SiItchdotio } from "react-icons/si";
- import { useEffect, useState } from "react";
 
     function scrollToTop() {
         window.scrollTo({
