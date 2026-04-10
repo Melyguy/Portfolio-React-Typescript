@@ -3,6 +3,14 @@
  import Link from "next/link";
  import { FaSpotify, FaGithub, FaSoundcloud } from "react-icons/fa";
  import { SiItchdotio } from "react-icons/si";
+ import { useEffect, useState } from "react";
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
  
  export function Footer() {
      return(
@@ -43,6 +51,9 @@
    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
    loading="lazy"
  />
+                             <button onClick={scrollToTop} className="w-10 h-10 text-xl bg-neutral-950 text-white hover:bg-neutral-800 hover:w-12 hover:h-12 hover:text-2xl transition-all  font-bold rounded-full z-50">
+                                ↑
+                            </button>
                  </div>
  
                  <div className="flex flex-row justify-between">
@@ -51,7 +62,7 @@
  
                  </div>
     
- 
+                
                  </div>
  
          </footer>
