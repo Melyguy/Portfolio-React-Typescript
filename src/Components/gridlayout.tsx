@@ -47,7 +47,7 @@ export function GridLayout() {
                         <div className="col-span-2 row-span-2 bg-neutral-100/40 border border-white backdrop-blur-lg shadow-xl rounded-xl p-4">
                 <h1 className="text-2xl text-Blue-950 font-bold">Releases:</h1>
                 <div className="flex flex-col gap-4 mt-4">
-                    <Link href="https://zkeler.itch.io/bladebound-proof-of-concept" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Bladebound: Proof of Concept</Link>
+                    <Link href="https://zkeler.itch.io/bladebound" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Bladebound</Link>
                     <Link href="https://githubshowcasesite.vercel.app/melyguy" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Github project showcase site</Link>
                     <Link href="https://sidequestapp-ebon.vercel.app/" className="w-full bg-neutral-300 p-1 text-xl rounded-xl ">Sidequest generator</Link>
 
